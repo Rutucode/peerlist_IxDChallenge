@@ -1,0 +1,107 @@
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  padding: 0;
+}
+
+:root {
+  --text: #24292e;
+}
+
+.container {
+  width: 1051px;
+  height: 560px;
+  padding: 110px 97px 110px 129px;
+  margin: auto;
+}
+.scetion {
+  margin: auto;
+  display: flex;
+}
+
+h1 {
+  width: 794px;
+  height: 48px;
+  font-family: "Playfair Display", serif;
+  color: var(--text, #24292e);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+}
+.btn-border {
+  display: inline-flex;
+  padding: 1px;
+  background: linear-gradient(
+    180deg,
+    #4895ef 0%,
+    #4361ee 25%,
+    #3f37c9 50%,
+    #3a0ca3 74%,
+    #480ca8 100%
+  );
+  margin: 8px 4px;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.pill {
+  user-select: none;
+  display: inline-block;
+  width: auto;
+  height: 36px;
+  padding: 8px 16px 8px 16px;
+  background: #ffffff;
+  word-wrap: inherit;
+  box-sizing: border-box;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pill:hover {
+  background: linear-gradient(
+    180deg,
+    #4895ef 0%,
+    #4361ee 25%,
+    #3f37c9 50%,
+    #3a0ca3 74%,
+    #480ca8 100%
+  );
+  color: #ffffff;
+}
+.tags {
+  list-style: none;
+}
+
+.pill.clicked {
+  background: linear-gradient(
+    180deg,
+    #4895ef 0%,
+    #4361ee 25%,
+    #3f37c9 50%,
+    #3a0ca3 74%,
+    #480ca8 100%
+  );
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
